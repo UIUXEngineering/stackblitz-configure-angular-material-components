@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { BadgeComponent } from './pages/badge/badge.component';
 import { BottomSheetComponent } from './pages/bottom-sheet/bottom-sheet.component';
+import { ButtonToggleComponent } from './pages/button-toggle/button-toggle.component';
 import { ButtonComponent } from './pages/button/button.component';
 import { HomeComponent } from './pages/home/home.component';
 import { TypographyComponent } from './pages/typography/typography.component';
@@ -27,6 +28,10 @@ const routes: Routes = [
   {
     path: 'button',
     component: ButtonComponent,
+  },
+  {
+    path: 'button-toggle',
+    component: ButtonToggleComponent,
   },
   {
     path: '',

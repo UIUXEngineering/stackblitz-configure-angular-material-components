@@ -1,6 +1,7 @@
 import { MatBadgeModule } from '@angular/material/badge';
 import { MatBottomSheetModule } from '@angular/material/bottom-sheet';
 import { MatButtonModule } from '@angular/material/button';
+import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { MatSidenavModule } from '@angular/material/sidenav';
@@ -20,6 +21,7 @@ import {
   BottomSheetOverviewExampleSheet,
 } from './pages/bottom-sheet/bottom-sheet.component';
 import { ButtonComponent } from './pages/button/button.component';
+import { ButtonToggleComponent } from './pages/button-toggle/button-toggle.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +32,7 @@ import { ButtonComponent } from './pages/button/button.component';
     BottomSheetComponent,
     BottomSheetOverviewExampleSheet,
     ButtonComponent,
+    ButtonToggleComponent,
   ],
   imports: [
     BrowserModule,
@@ -40,6 +43,7 @@ import { ButtonComponent } from './pages/button/button.component';
     MatBadgeModule,
     MatBottomSheetModule,
     MatButtonModule,
+    MatButtonToggleModule,
     MatIconModule,
     MatListModule,
     MatSidenavModule,
