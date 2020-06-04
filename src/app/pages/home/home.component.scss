@@ -4,8 +4,8 @@
 
   .terminal {
     position: relative;
-    width: 80%;
-    max-width: 600px;
+    width: 100%;
+    //max-width: 600px;
     border-radius: 6px;
     padding-top: 45px;
     margin-top: 8px;
@@ -33,6 +33,14 @@
     color: white;
     padding: 0 1rem 1rem;
     margin: 0;
+  }
+
+  .section {
+    margin-top: 40px;
+  }
+
+  .github-buttom {
+    margin-left: 20px;
   }
 
   /* Responsive Styles */

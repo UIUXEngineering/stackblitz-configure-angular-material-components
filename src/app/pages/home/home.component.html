@@ -1,10 +1,113 @@
 <div class="mat-h2">
-  Update Material Typography
+  Angular Material Playground
 </div>
 
 <p>
+  Open the file <code>src/styles.scss</code> to configure Angular Material's Typography and themes.
   Update <code>mat-core()</code> in the styles.scss file.
 </p>
+
 <div class="terminal">
-  <pre>./src/styles.scss</pre>
+  <pre>
+    # open this file to edit Material configurations
+    /src/styles.scss
+  </pre>
 </div>
+
+<div class="mat-h2 section">
+  Play with the Typography Configuration.
+</div>
+
+Material's default typography configuration is as follows:
+
+<div class="terminal">
+  <pre>
+      $material-default-typography: mat-typography-config(
+        $font-family:   'Roboto, "Helvetica Neue", sans-serif',
+        $display-4:     mat-typography-level(112px, 112px, 300, $letter-spacing: -0.05em),
+        $display-3:     mat-typography-level(56px, 56px, 400, $letter-spacing: -0.02em),
+        $display-2:     mat-typography-level(45px, 48px, 400, $letter-spacing: -0.005em),
+        $display-1:     mat-typography-level(34px, 40px, 400),
+        $headline:      mat-typography-level(24px, 32px, 400),
+        $title:         mat-typography-level(20px, 32px, 500),
+        $subheading-2:  mat-typography-level(16px, 28px, 400),
+        $subheading-1:  mat-typography-level(15px, 24px, 400),
+        $body-2:        mat-typography-level(14px, 24px, 500),
+        $body-1:        mat-typography-level(14px, 20px, 400),
+        $caption:       mat-typography-level(12px, 20px, 400),
+        $button:        mat-typography-level(14px, 14px, 500),
+          // Line-height must be unit-less fraction of the font-size.
+        $input:         mat-typography-level(inherit, 1.125, 400)
+      );
+
+  </pre>
+</div>
+
+<p class="section">To try a version in <code>rem</code> instead of <code>px</code>, try:</p>
+
+<div class="terminal">
+  <pre>
+      $rem-typography: mat-typography-config(
+        $font-family: '-apple-system, Roboto, "Noto Sans", Ubuntu, Cantarell, "Helvetic Neue", sans-serif',
+        $display-4: mat-typography-level(7rem, 7rem, 300, $letter-spacing: -0.05em),
+        $display-3: mat-typography-level(3.5rem, 3.5rem, 400, $letter-spacing: -0.02em),
+        $display-2: mat-typography-level(2.8125rem, 3rem, 400, $letter-spacing: -0.005em),
+        $display-1: mat-typography-level(2.125rem, 2.5rem, 400),
+        $headline: mat-typography-level(1.5rem, 2rem, 400),
+        $title: mat-typography-level(1.25rem, 2rem, 500),
+        $subheading-2: mat-typography-level(1rem, 1.75rem, 400),
+        $subheading-1: mat-typography-level(0.9375rem, 1.5rem, 400),
+        $body-2: mat-typography-level(0.875rem, 1.5, 500),
+        $body-1: mat-typography-level(0.875rem, 1.5, 400),
+        $caption: mat-typography-level(0.75rem, 1.25rem, 400),
+        $button: mat-typography-level(0.875rem, 0.875rem, 500),
+        // Line-height must be unit-less fraction of the font-size. $input: mat-typography-level(inherit, 1.125, 400),
+        $input: mat-typography-level(inherit, 1.125, 400),
+      );
+
+  </pre>
+</div>
+
+<p class="section">Update <code>mat-core</code> with your configuration variable:</p>
+<div class="terminal">
+  <pre>
+      @include mat-core($material-default-typography);
+  </pre>
+</div>
+
+<div class="mat-h2">
+  Colors
+</div>
+
+<p>
+  Find available material colors <a
+  href="https://github.com/angular/components/blob/master/src/material/core/theming/_palette.scss#L39">here</a>.
+</p>
+
+<p>
+  Update the theme colors in the same <code>src/styles.scss</code> file.
+</p>
+<div class="terminal">
+  <pre>
+       $config-angular-material-theme-components-primary: mat-palette($mat-indigo);
+  </pre>
+</div>
+
+<div class="mat-h2 section">
+  PR's Welcome!
+</div>
+
+<p class="mat-h4">
+  PR's welcome! <a mat-raised-button color="primary" class="github-buttom"
+                   target="_blank"
+                   href="https://github.com/UIUXEngineering/stackblitz-configure-angular-material-components"
+                                   aria-label="GitHub Repository">
+                  <img class="docs-angular-logo"
+                       src="./assets/img/homepage/github-circle-white-transparent.svg"
+                       alt="angular material">
+                  GitHub
+                </a>
+</p>
+
+
+

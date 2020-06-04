@@ -1,11 +1,28 @@
-<mat-toolbar color="primary">
+<mat-toolbar color="primary" class="mat-elevation-z6">
   <button mat-mini-fab color="primary" class="home" (click)="goHome()">
     <mat-icon>home</mat-icon>
   </button>
-  Configure Material Components
+ Angular Material Playground
   <span class="example-spacer"></span>
-  <button mat-button class="toggle" (click)="toggleTheme()">Toggle Theme</button>
 
+  <button mat-button class="toggle"
+          matTooltip="Toggle Light / Dark Theme"
+          matTooltipPosition="below"
+          (click)="toggleTheme()">
+    <mat-icon>format_color_fill</mat-icon>
+  </button>
+
+  <a mat-button class="docs-button docs-navbar-hide-small"
+     matTooltip="PR's Welcome!"
+     matTooltipPosition="below"
+     target="_blank"
+     href="https://github.com/UIUXEngineering/stackblitz-configure-angular-material-components"
+     aria-label="GitHub Repository">
+    <img class="docs-angular-logo"
+         src="./assets/img/homepage/github-circle-white-transparent.svg"
+         alt="angular material">
+    GitHub
+  </a>
 </mat-toolbar>
 <mat-sidenav-container>
   <mat-sidenav mode="side"
