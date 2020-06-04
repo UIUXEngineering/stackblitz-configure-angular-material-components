@@ -22,6 +22,7 @@ import { SliderComponent } from './pages/slider/slider.component';
 import { StepperComponent } from './pages/stepper/stepper.component';
 import { TabGroupComponent } from './pages/tab-group/tab-group.component';
 import { TableComponent } from './pages/table/table.component';
+import { ToolbarComponent } from './pages/toolbar/toolbar.component';
 import { TypographyComponent } from './pages/typography/typography.component';
 
 
@@ -113,6 +114,10 @@ const routes: Routes = [
   {
     path: 'tabs',
     component: TabGroupComponent,
+  },
+  {
+    path: 'toolbar',
+    component: ToolbarComponent,
   },
   {
     path: 'select',

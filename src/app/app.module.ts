@@ -59,6 +59,7 @@ import { SelectComponent } from './pages/select/select.component';
 import { SliderComponent } from './pages/slider/slider.component';
 import { StepperComponent } from './pages/stepper/stepper.component';
 import { TabGroupComponent } from './pages/tab-group/tab-group.component';
+import { ToolbarComponent } from './pages/toolbar/toolbar.component';
 
 @NgModule({
   declarations: [
@@ -88,6 +89,7 @@ import { TabGroupComponent } from './pages/tab-group/tab-group.component';
     SliderComponent,
     StepperComponent,
     TabGroupComponent,
+    ToolbarComponent,
   ],
   imports: [
     CommonModule,
