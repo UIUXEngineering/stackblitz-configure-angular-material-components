@@ -17,6 +17,7 @@ import { InputComponent } from './pages/input/input.component';
 import { MenuComponent } from './pages/menu/menu.component';
 import { PaginatorComponent } from './pages/paginator/paginator.component';
 import { RadioButtonComponent } from './pages/radio-button/radio-button.component';
+import { SelectComponent } from './pages/select/select.component';
 import { TableComponent } from './pages/table/table.component';
 import { TypographyComponent } from './pages/typography/typography.component';
 
@@ -97,6 +98,10 @@ const routes: Routes = [
   {
     path: 'table',
     component: TableComponent,
+  },
+  {
+    path: 'select',
+    component: SelectComponent,
   },
   {
     path: '',

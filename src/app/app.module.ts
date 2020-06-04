@@ -21,6 +21,7 @@ import { MatListModule } from '@angular/material/list';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatRadioModule } from '@angular/material/radio';
+import { MatSelectModule } from '@angular/material/select';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatTableModule } from '@angular/material/table';
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -51,6 +52,7 @@ import { InputComponent } from './pages/input/input.component';
 import { MenuComponent } from './pages/menu/menu.component';
 import { PaginatorComponent } from './pages/paginator/paginator.component';
 import { RadioButtonComponent } from './pages/radio-button/radio-button.component';
+import { SelectComponent } from './pages/select/select.component';
 
 @NgModule({
   declarations: [
@@ -76,6 +78,7 @@ import { RadioButtonComponent } from './pages/radio-button/radio-button.componen
     MenuComponent,
     PaginatorComponent,
     RadioButtonComponent,
+    SelectComponent,
   ],
   imports: [
     CommonModule,
@@ -105,8 +108,9 @@ import { RadioButtonComponent } from './pages/radio-button/radio-button.componen
     MatNativeDateModule,
     MatPaginatorModule,
     MatRadioModule,
-    MatTableModule,
+    MatSelectModule,
     MatSidenavModule,
+    MatTableModule,
     MatToolbarModule,
 
 
