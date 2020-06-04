@@ -1,10 +1,13 @@
+import { FormsModule } from '@angular/forms';
 import { MatBadgeModule } from '@angular/material/badge';
 import { MatBottomSheetModule } from '@angular/material/bottom-sheet';
 import { MatButtonModule } from '@angular/material/button';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { MatCardModule } from '@angular/material/card';
+import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
+import { MatRadioModule } from '@angular/material/radio';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { BrowserModule } from '@angular/platform-browser';
@@ -24,6 +27,7 @@ import {
 import { ButtonComponent } from './pages/button/button.component';
 import { ButtonToggleComponent } from './pages/button-toggle/button-toggle.component';
 import { CardComponent } from './pages/card/card.component';
+import { CheckboxComponent } from './pages/checkbox/checkbox.component';
 
 @NgModule({
   declarations: [
@@ -36,10 +40,11 @@ import { CardComponent } from './pages/card/card.component';
     ButtonComponent,
     ButtonToggleComponent,
     CardComponent,
+    CheckboxComponent,
   ],
   imports: [
     BrowserModule,
-
+    FormsModule,
     BrowserAnimationsModule,
 
     // Please keep in alphabetical order
@@ -48,8 +53,10 @@ import { CardComponent } from './pages/card/card.component';
     MatButtonModule,
     MatButtonToggleModule,
     MatCardModule,
+    MatCheckboxModule,
     MatIconModule,
     MatListModule,
+    MatRadioModule,
     MatSidenavModule,
     MatToolbarModule,
 

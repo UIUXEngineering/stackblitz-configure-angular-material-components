@@ -5,6 +5,7 @@ import { BottomSheetComponent } from './pages/bottom-sheet/bottom-sheet.componen
 import { ButtonToggleComponent } from './pages/button-toggle/button-toggle.component';
 import { ButtonComponent } from './pages/button/button.component';
 import { CardComponent } from './pages/card/card.component';
+import { CheckboxComponent } from './pages/checkbox/checkbox.component';
 import { HomeComponent } from './pages/home/home.component';
 import { TypographyComponent } from './pages/typography/typography.component';
 
@@ -37,6 +38,10 @@ const routes: Routes = [
   {
     path: 'card',
     component: CardComponent,
+  },
+  {
+    path: 'checkbox',
+    component: CheckboxComponent,
   },
   {
     path: '',
