@@ -9,6 +9,7 @@ import { CheckboxComponent } from './pages/checkbox/checkbox.component';
 import { ChipsComponent } from './pages/chips/chips.component';
 import { DatepickerComponent } from './pages/datepicker/datepicker.component';
 import { DialogComponent } from './pages/dialog/dialog.component';
+import { ExpansionPanelComponent } from './pages/expansion-panel/expansion-panel.component';
 import { HomeComponent } from './pages/home/home.component';
 import { TableComponent } from './pages/table/table.component';
 import { TypographyComponent } from './pages/typography/typography.component';
@@ -58,6 +59,10 @@ const routes: Routes = [
   {
     path: 'dialog',
     component: DialogComponent,
+  },
+  {
+    path: 'expansion-panel',
+    component: ExpansionPanelComponent,
   },
   {
     path: 'table',
