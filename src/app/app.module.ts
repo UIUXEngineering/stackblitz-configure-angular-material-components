@@ -45,6 +45,7 @@ import { DialogComponent, DialogOverviewExampleDialog } from './pages/dialog/dia
 import { ExpansionPanelComponent } from './pages/expansion-panel/expansion-panel.component';
 import { FormFieldComponent } from './pages/form-field/form-field.component';
 import { GridListComponent } from './pages/grid-list/grid-list.component';
+import { InputComponent } from './pages/input/input.component';
 
 @NgModule({
   declarations: [
@@ -66,6 +67,7 @@ import { GridListComponent } from './pages/grid-list/grid-list.component';
     ExpansionPanelComponent,
     FormFieldComponent,
     GridListComponent,
+    InputComponent,
   ],
   imports: [
     CommonModule,

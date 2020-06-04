@@ -1,4 +1,5 @@
-import { Component, HostBinding } from '@angular/core';
+import { DOCUMENT } from '@angular/common';
+import { Component, HostBinding, Inject } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
@@ -8,8 +9,9 @@ import { Router } from '@angular/router';
 })
 export class AppComponent {
 
-  @HostBinding('class.unicorn-dark-theme') darkTheme: boolean = false;
-  constructor(private router: Router) {
+  // @HostBinding('class.unicorn-dark-theme') darkTheme: boolean = false;
+  darkTheme: boolean = false;
+  constructor(private router: Router, @Inject(DOCUMENT) private document: Document) {
   }
 
   goHome() {
@@ -18,5 +20,10 @@ export class AppComponent {
 
   toggleTheme() {
     this.darkTheme = !this.darkTheme;
+    if (this.darkTheme) {
+      this.document.body.classList.add('unicorn-dark-theme');
+    } else {
+      this.document.body.classList.remove('unicorn-dark-theme');
+    }
   }
 }
