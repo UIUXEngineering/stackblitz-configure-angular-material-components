@@ -18,6 +18,7 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
 import { MatListModule } from '@angular/material/list';
+import { MatMenuModule } from '@angular/material/menu';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatTableModule } from '@angular/material/table';
@@ -46,6 +47,7 @@ import { ExpansionPanelComponent } from './pages/expansion-panel/expansion-panel
 import { FormFieldComponent } from './pages/form-field/form-field.component';
 import { GridListComponent } from './pages/grid-list/grid-list.component';
 import { InputComponent } from './pages/input/input.component';
+import { MenuComponent } from './pages/menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -68,6 +70,7 @@ import { InputComponent } from './pages/input/input.component';
     FormFieldComponent,
     GridListComponent,
     InputComponent,
+    MenuComponent,
   ],
   imports: [
     CommonModule,
@@ -93,6 +96,7 @@ import { InputComponent } from './pages/input/input.component';
     MatIconModule,
     MatInputModule,
     MatListModule,
+    MatMenuModule,
     MatNativeDateModule,
     MatRadioModule,
     MatTableModule,
