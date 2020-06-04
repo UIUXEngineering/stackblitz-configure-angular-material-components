@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, HostBinding } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'config-angular-material-theme-components';
+
+  @HostBinding('class.unicorn-dark-theme') darkTheme: boolean = false;
+  constructor(private router: Router) {
+  }
+
+  goHome() {
+    this.router.navigate(['home']);
+  }
+
+  toggleTheme() {
+    this.darkTheme = !this.darkTheme;
+  }
 }

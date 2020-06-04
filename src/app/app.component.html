@@ -1,5 +1,11 @@
 <mat-toolbar color="primary">
+  <button mat-mini-fab color="primary" class="home" (click)="goHome()">
+    <mat-icon>home</mat-icon>
+  </button>
   Configure Material Components
+
+  <button mat-button class="toggle" (click)="toggleTheme()">Toggle Theme</button>
+
 </mat-toolbar>
 <mat-sidenav-container>
   <mat-sidenav mode="side"
@@ -11,13 +17,10 @@
   </mat-sidenav>
   <mat-sidenav-content>
 
-
-
-    <!-- Terminal -->
-    <div class="terminal">
-      <pre>./src/styles.scss</pre>
+    <div class="app-content">
+      <router-outlet></router-outlet>
     </div>
 
-    <router-outlet></router-outlet>
+
   </mat-sidenav-content>
 </mat-sidenav-container>
