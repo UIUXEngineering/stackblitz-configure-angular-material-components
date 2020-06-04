@@ -20,6 +20,7 @@ import { PaginatorComponent } from './pages/paginator/paginator.component';
 import { RadioButtonComponent } from './pages/radio-button/radio-button.component';
 import { SelectComponent } from './pages/select/select.component';
 import { SliderComponent } from './pages/slider/slider.component';
+import { SnackbarComponent } from './pages/snackbar/snackbar.component';
 import { StepperComponent } from './pages/stepper/stepper.component';
 import { TabGroupComponent } from './pages/tab-group/tab-group.component';
 import { TableComponent } from './pages/table/table.component';
@@ -112,6 +113,10 @@ const routes: Routes = [
   {
     path: 'slider',
     component: SliderComponent,
+  },
+  {
+    path: 'snackbar',
+    component: SnackbarComponent,
   },
   {
     path: 'stepper',

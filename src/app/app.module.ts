@@ -24,6 +24,7 @@ import { MatRadioModule } from '@angular/material/radio';
 import { MatSelectModule } from '@angular/material/select';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatSliderModule } from '@angular/material/slider';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatStepperModule } from '@angular/material/stepper';
 import { MatTableModule } from '@angular/material/table';
 import { MatTabsModule } from '@angular/material/tabs';
@@ -63,6 +64,7 @@ import { TabGroupComponent } from './pages/tab-group/tab-group.component';
 import { ToolbarComponent } from './pages/toolbar/toolbar.component';
 import { AppTooltipComponent } from './pages/tooltip/tooltip.component';
 import { ListComponent } from './pages/list/list.component';
+import { SnackbarComponent } from './pages/snackbar/snackbar.component';
 
 @NgModule({
   declarations: [
@@ -95,6 +97,7 @@ import { ListComponent } from './pages/list/list.component';
     ToolbarComponent,
     AppTooltipComponent,
     ListComponent,
+    SnackbarComponent,
   ],
   imports: [
     CommonModule,
@@ -127,6 +130,7 @@ import { ListComponent } from './pages/list/list.component';
     MatSelectModule,
     MatSliderModule,
     MatSidenavModule,
+    MatSnackBarModule,
     MatStepperModule,
     MatTabsModule,
     MatTableModule,
