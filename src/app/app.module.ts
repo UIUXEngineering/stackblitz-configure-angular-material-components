@@ -1,6 +1,8 @@
 import { MatBadgeModule } from '@angular/material/badge';
+import { MatBottomSheetModule } from '@angular/material/bottom-sheet';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
+import { MatListModule } from '@angular/material/list';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { BrowserModule } from '@angular/platform-browser';
@@ -12,13 +14,20 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './pages/home/home.component';
 import { TypographyComponent } from './pages/typography/typography.component';
 import { BadgeComponent } from './pages/badge/badge.component';
+import {
+  BottomSheetComponent,
+
+  BottomSheetOverviewExampleSheet,
+} from './pages/bottom-sheet/bottom-sheet.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     TypographyComponent,
-    BadgeComponent
+    BadgeComponent,
+    BottomSheetComponent,
+    BottomSheetOverviewExampleSheet,
   ],
   imports: [
     BrowserModule,
@@ -27,10 +36,14 @@ import { BadgeComponent } from './pages/badge/badge.component';
 
     // Please keep in alphabetical order
     MatBadgeModule,
+    MatBottomSheetModule,
     MatButtonModule,
     MatIconModule,
+    MatListModule,
     MatSidenavModule,
     MatToolbarModule,
+
+
 
     AppRoutingModule,
 
@@ -38,4 +51,9 @@ import { BadgeComponent } from './pages/badge/badge.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+
+  constructor() {
+  }
+
+}

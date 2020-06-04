@@ -13,15 +13,23 @@
                [fixedInViewport]="0"
                [fixedTopGap]="64"
                [fixedBottomGap]="0">
-    <ul>
-      <li>
-        <button mat-button routerLink="/typography">Typography</button>
-      </li>
-      <li>
-        <button mat-button routerLink="/badge">Badge</button>
-      </li>
 
-    </ul>
+    <mat-nav-list>
+      <a routerLink="/typography" mat-list-item >
+        <span mat-line>Typography</span>
+      </a>
+
+      <a routerLink="/badge" mat-list-item >
+        <span mat-line>Badge</span>
+      </a>
+
+      <a routerLink="/bottom-sheet" mat-list-item >
+        <span mat-line>Bottom Sheet</span>
+      </a>
+
+    </mat-nav-list>
+
+
   </mat-sidenav>
   <mat-sidenav-content>
 
