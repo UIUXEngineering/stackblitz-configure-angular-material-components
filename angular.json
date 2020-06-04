@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "config-angular-material-theme-components"
+    }
+  },
+  "defaultProject": "config-angular-material-theme-components",
+  "cli": {
+    "analytics": false
+  }
 }
