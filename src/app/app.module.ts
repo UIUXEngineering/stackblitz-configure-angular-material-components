@@ -14,6 +14,7 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatGridListModule } from '@angular/material/grid-list';
 import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
 import { MatListModule } from '@angular/material/list';
@@ -43,6 +44,7 @@ import { DatepickerComponent } from './pages/datepicker/datepicker.component';
 import { DialogComponent, DialogOverviewExampleDialog } from './pages/dialog/dialog.component';
 import { ExpansionPanelComponent } from './pages/expansion-panel/expansion-panel.component';
 import { FormFieldComponent } from './pages/form-field/form-field.component';
+import { GridListComponent } from './pages/grid-list/grid-list.component';
 
 @NgModule({
   declarations: [
@@ -63,6 +65,7 @@ import { FormFieldComponent } from './pages/form-field/form-field.component';
     DialogOverviewExampleDialog,
     ExpansionPanelComponent,
     FormFieldComponent,
+    GridListComponent,
   ],
   imports: [
     CommonModule,
@@ -84,6 +87,7 @@ import { FormFieldComponent } from './pages/form-field/form-field.component';
     MatDialogModule,
     MatExpansionModule,
     MatFormFieldModule,
+    MatGridListModule,
     MatIconModule,
     MatInputModule,
     MatListModule,
