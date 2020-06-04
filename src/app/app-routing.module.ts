@@ -23,6 +23,7 @@ import { StepperComponent } from './pages/stepper/stepper.component';
 import { TabGroupComponent } from './pages/tab-group/tab-group.component';
 import { TableComponent } from './pages/table/table.component';
 import { ToolbarComponent } from './pages/toolbar/toolbar.component';
+import { AppTooltipComponent } from './pages/tooltip/tooltip.component';
 import { TypographyComponent } from './pages/typography/typography.component';
 
 
@@ -100,6 +101,10 @@ const routes: Routes = [
     component: RadioButtonComponent,
   },
   {
+    path: 'select',
+    component: SelectComponent,
+  },
+  {
     path: 'slider',
     component: SliderComponent,
   },
@@ -120,9 +125,10 @@ const routes: Routes = [
     component: ToolbarComponent,
   },
   {
-    path: 'select',
-    component: SelectComponent,
+    path: 'tooltip',
+    component: AppTooltipComponent,
   },
+
   {
     path: '',
     redirectTo: 'home',
