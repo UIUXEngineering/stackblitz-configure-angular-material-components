@@ -26,6 +26,7 @@ import { TabGroupComponent } from './pages/tab-group/tab-group.component';
 import { TableComponent } from './pages/table/table.component';
 import { ToolbarComponent } from './pages/toolbar/toolbar.component';
 import { AppTooltipComponent } from './pages/tooltip/tooltip.component';
+import { TreeComponent } from './pages/tree/tree.component';
 import { TypographyComponent } from './pages/typography/typography.component';
 
 
@@ -137,6 +138,10 @@ const routes: Routes = [
   {
     path: 'tooltip',
     component: AppTooltipComponent,
+  },
+  {
+    path: 'tree',
+    component: TreeComponent,
   },
 
   {

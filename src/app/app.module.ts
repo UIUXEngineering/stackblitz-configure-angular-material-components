@@ -30,6 +30,7 @@ import { MatTableModule } from '@angular/material/table';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatTooltipModule } from '@angular/material/tooltip';
+import { MatTreeModule } from '@angular/material/tree';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
@@ -65,6 +66,7 @@ import { ToolbarComponent } from './pages/toolbar/toolbar.component';
 import { AppTooltipComponent } from './pages/tooltip/tooltip.component';
 import { ListComponent } from './pages/list/list.component';
 import { SnackbarComponent } from './pages/snackbar/snackbar.component';
+import { TreeComponent } from './pages/tree/tree.component';
 
 @NgModule({
   declarations: [
@@ -98,6 +100,7 @@ import { SnackbarComponent } from './pages/snackbar/snackbar.component';
     AppTooltipComponent,
     ListComponent,
     SnackbarComponent,
+    TreeComponent,
   ],
   imports: [
     CommonModule,
@@ -136,7 +139,7 @@ import { SnackbarComponent } from './pages/snackbar/snackbar.component';
     MatTableModule,
     MatToolbarModule,
     MatTooltipModule,
-
+    MatTreeModule,
 
 
     AppRoutingModule,
