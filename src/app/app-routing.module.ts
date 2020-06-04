@@ -19,6 +19,7 @@ import { PaginatorComponent } from './pages/paginator/paginator.component';
 import { RadioButtonComponent } from './pages/radio-button/radio-button.component';
 import { SelectComponent } from './pages/select/select.component';
 import { SliderComponent } from './pages/slider/slider.component';
+import { StepperComponent } from './pages/stepper/stepper.component';
 import { TableComponent } from './pages/table/table.component';
 import { TypographyComponent } from './pages/typography/typography.component';
 
@@ -99,6 +100,10 @@ const routes: Routes = [
   {
     path: 'slider',
     component: SliderComponent,
+  },
+  {
+    path: 'stepper',
+    component: StepperComponent,
   },
   {
     path: 'table',

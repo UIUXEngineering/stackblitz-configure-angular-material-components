@@ -24,6 +24,7 @@ import { MatRadioModule } from '@angular/material/radio';
 import { MatSelectModule } from '@angular/material/select';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatSliderModule } from '@angular/material/slider';
+import { MatStepperModule } from '@angular/material/stepper';
 import { MatTableModule } from '@angular/material/table';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { BrowserModule } from '@angular/platform-browser';
@@ -55,6 +56,7 @@ import { PaginatorComponent } from './pages/paginator/paginator.component';
 import { RadioButtonComponent } from './pages/radio-button/radio-button.component';
 import { SelectComponent } from './pages/select/select.component';
 import { SliderComponent } from './pages/slider/slider.component';
+import { StepperComponent } from './pages/stepper/stepper.component';
 
 @NgModule({
   declarations: [
@@ -82,6 +84,7 @@ import { SliderComponent } from './pages/slider/slider.component';
     RadioButtonComponent,
     SelectComponent,
     SliderComponent,
+    StepperComponent,
   ],
   imports: [
     CommonModule,
@@ -114,6 +117,7 @@ import { SliderComponent } from './pages/slider/slider.component';
     MatSelectModule,
     MatSliderModule,
     MatSidenavModule,
+    MatStepperModule,
     MatTableModule,
     MatToolbarModule,
 
