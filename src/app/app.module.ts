@@ -19,6 +19,7 @@ import {
 
   BottomSheetOverviewExampleSheet,
 } from './pages/bottom-sheet/bottom-sheet.component';
+import { ButtonComponent } from './pages/button/button.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import {
     BadgeComponent,
     BottomSheetComponent,
     BottomSheetOverviewExampleSheet,
+    ButtonComponent,
   ],
   imports: [
     BrowserModule,
