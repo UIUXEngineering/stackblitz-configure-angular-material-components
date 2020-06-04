@@ -14,6 +14,7 @@ import { FormFieldComponent } from './pages/form-field/form-field.component';
 import { GridListComponent } from './pages/grid-list/grid-list.component';
 import { HomeComponent } from './pages/home/home.component';
 import { InputComponent } from './pages/input/input.component';
+import { ListComponent } from './pages/list/list.component';
 import { MenuComponent } from './pages/menu/menu.component';
 import { PaginatorComponent } from './pages/paginator/paginator.component';
 import { RadioButtonComponent } from './pages/radio-button/radio-button.component';
@@ -87,6 +88,10 @@ const routes: Routes = [
   {
     path: 'input',
     component: InputComponent,
+  },
+  {
+    path: 'list',
+    component: ListComponent,
   },
   {
     path: 'menu',

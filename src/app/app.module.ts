@@ -62,6 +62,7 @@ import { StepperComponent } from './pages/stepper/stepper.component';
 import { TabGroupComponent } from './pages/tab-group/tab-group.component';
 import { ToolbarComponent } from './pages/toolbar/toolbar.component';
 import { AppTooltipComponent } from './pages/tooltip/tooltip.component';
+import { ListComponent } from './pages/list/list.component';
 
 @NgModule({
   declarations: [
@@ -93,6 +94,7 @@ import { AppTooltipComponent } from './pages/tooltip/tooltip.component';
     TabGroupComponent,
     ToolbarComponent,
     AppTooltipComponent,
+    ListComponent,
   ],
   imports: [
     CommonModule,
