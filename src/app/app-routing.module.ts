@@ -20,6 +20,7 @@ import { RadioButtonComponent } from './pages/radio-button/radio-button.componen
 import { SelectComponent } from './pages/select/select.component';
 import { SliderComponent } from './pages/slider/slider.component';
 import { StepperComponent } from './pages/stepper/stepper.component';
+import { TabGroupComponent } from './pages/tab-group/tab-group.component';
 import { TableComponent } from './pages/table/table.component';
 import { TypographyComponent } from './pages/typography/typography.component';
 
@@ -108,6 +109,10 @@ const routes: Routes = [
   {
     path: 'table',
     component: TableComponent,
+  },
+  {
+    path: 'tabs',
+    component: TabGroupComponent,
   },
   {
     path: 'select',
