@@ -19,6 +19,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
 import { MatListModule } from '@angular/material/list';
 import { MatMenuModule } from '@angular/material/menu';
+import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatTableModule } from '@angular/material/table';
@@ -48,6 +49,7 @@ import { FormFieldComponent } from './pages/form-field/form-field.component';
 import { GridListComponent } from './pages/grid-list/grid-list.component';
 import { InputComponent } from './pages/input/input.component';
 import { MenuComponent } from './pages/menu/menu.component';
+import { PaginatorComponent } from './pages/paginator/paginator.component';
 
 @NgModule({
   declarations: [
@@ -71,6 +73,7 @@ import { MenuComponent } from './pages/menu/menu.component';
     GridListComponent,
     InputComponent,
     MenuComponent,
+    PaginatorComponent,
   ],
   imports: [
     CommonModule,
@@ -98,6 +101,7 @@ import { MenuComponent } from './pages/menu/menu.component';
     MatListModule,
     MatMenuModule,
     MatNativeDateModule,
+    MatPaginatorModule,
     MatRadioModule,
     MatTableModule,
     MatSidenavModule,

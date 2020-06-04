@@ -15,6 +15,7 @@ import { GridListComponent } from './pages/grid-list/grid-list.component';
 import { HomeComponent } from './pages/home/home.component';
 import { InputComponent } from './pages/input/input.component';
 import { MenuComponent } from './pages/menu/menu.component';
+import { PaginatorComponent } from './pages/paginator/paginator.component';
 import { TableComponent } from './pages/table/table.component';
 import { TypographyComponent } from './pages/typography/typography.component';
 
@@ -83,6 +84,10 @@ const routes: Routes = [
   {
     path: 'menu',
     component: MenuComponent,
+  },
+  {
+    path: 'paginator',
+    component: PaginatorComponent,
   },
   {
     path: 'table',
