@@ -42,6 +42,7 @@ import { TableComponent } from './pages/table/table.component';
 import { DatepickerComponent } from './pages/datepicker/datepicker.component';
 import { DialogComponent, DialogOverviewExampleDialog } from './pages/dialog/dialog.component';
 import { ExpansionPanelComponent } from './pages/expansion-panel/expansion-panel.component';
+import { FormFieldComponent } from './pages/form-field/form-field.component';
 
 @NgModule({
   declarations: [
@@ -61,6 +62,7 @@ import { ExpansionPanelComponent } from './pages/expansion-panel/expansion-panel
     DialogComponent,
     DialogOverviewExampleDialog,
     ExpansionPanelComponent,
+    FormFieldComponent,
   ],
   imports: [
     CommonModule,
