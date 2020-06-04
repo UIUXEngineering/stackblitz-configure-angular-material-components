@@ -18,6 +18,7 @@ import { MenuComponent } from './pages/menu/menu.component';
 import { PaginatorComponent } from './pages/paginator/paginator.component';
 import { RadioButtonComponent } from './pages/radio-button/radio-button.component';
 import { SelectComponent } from './pages/select/select.component';
+import { SliderComponent } from './pages/slider/slider.component';
 import { TableComponent } from './pages/table/table.component';
 import { TypographyComponent } from './pages/typography/typography.component';
 
@@ -94,6 +95,10 @@ const routes: Routes = [
   {
     path: 'radio-button',
     component: RadioButtonComponent,
+  },
+  {
+    path: 'slider',
+    component: SliderComponent,
   },
   {
     path: 'table',
