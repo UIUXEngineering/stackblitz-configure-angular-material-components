@@ -50,6 +50,7 @@ import { GridListComponent } from './pages/grid-list/grid-list.component';
 import { InputComponent } from './pages/input/input.component';
 import { MenuComponent } from './pages/menu/menu.component';
 import { PaginatorComponent } from './pages/paginator/paginator.component';
+import { RadioButtonComponent } from './pages/radio-button/radio-button.component';
 
 @NgModule({
   declarations: [
@@ -74,6 +75,7 @@ import { PaginatorComponent } from './pages/paginator/paginator.component';
     InputComponent,
     MenuComponent,
     PaginatorComponent,
+    RadioButtonComponent,
   ],
   imports: [
     CommonModule,

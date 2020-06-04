@@ -16,6 +16,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { InputComponent } from './pages/input/input.component';
 import { MenuComponent } from './pages/menu/menu.component';
 import { PaginatorComponent } from './pages/paginator/paginator.component';
+import { RadioButtonComponent } from './pages/radio-button/radio-button.component';
 import { TableComponent } from './pages/table/table.component';
 import { TypographyComponent } from './pages/typography/typography.component';
 
@@ -88,6 +89,10 @@ const routes: Routes = [
   {
     path: 'paginator',
     component: PaginatorComponent,
+  },
+  {
+    path: 'radio-button',
+    component: RadioButtonComponent,
   },
   {
     path: 'table',
