@@ -14,6 +14,8 @@ export class StepperComponent implements OnInit {
   firstFormGroup: FormGroup;
   secondFormGroup: FormGroup;
 
+  isLinear = false;
+
   constructor(private _formBuilder: FormBuilder) {}
 
   ngOnInit() {
