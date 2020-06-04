@@ -64,7 +64,9 @@ $rem-typography: mat-typography-config(
 
 // Define the palettes for your theme using the Material Design palettes available in palette.scss
 // (imported above). For each palette, you can optionally specify a default, lighter, and darker
-// hue. Available color palettes: https://material.io/design/color/
+// hue.
+// Material Color Variables: https://github.com/angular/components/blob/master/src/material/core/theming/_palette.scss#L39
+// Available color palettes: https://material.io/design/color/
 $config-angular-material-theme-components-primary: mat-palette($mat-indigo);
 $config-angular-material-theme-components-accent: mat-palette($mat-pink, A200, A100, A400);
 
