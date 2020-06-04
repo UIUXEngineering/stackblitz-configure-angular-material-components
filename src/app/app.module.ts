@@ -11,6 +11,7 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatChipsModule } from '@angular/material/chips';
 import { MatNativeDateModule } from '@angular/material/core';
 import { MatDatepickerModule } from '@angular/material/datepicker';
+import { MatDialogModule } from '@angular/material/dialog';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
@@ -38,6 +39,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { TypographyComponent } from './pages/typography/typography.component';
 import { TableComponent } from './pages/table/table.component';
 import { DatepickerComponent } from './pages/datepicker/datepicker.component';
+import { DialogComponent, DialogOverviewExampleDialog } from './pages/dialog/dialog.component';
 
 @NgModule({
   declarations: [
@@ -54,6 +56,8 @@ import { DatepickerComponent } from './pages/datepicker/datepicker.component';
     ChipsComponent,
     TableComponent,
     DatepickerComponent,
+    DialogComponent,
+    DialogOverviewExampleDialog,
   ],
   imports: [
     CommonModule,
@@ -72,6 +76,7 @@ import { DatepickerComponent } from './pages/datepicker/datepicker.component';
     MatCheckboxModule,
     MatChipsModule,
     MatDatepickerModule,
+    MatDialogModule,
     MatFormFieldModule,
     MatIconModule,
     MatInputModule,

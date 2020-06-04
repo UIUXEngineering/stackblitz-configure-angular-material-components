@@ -8,6 +8,7 @@ import { CardComponent } from './pages/card/card.component';
 import { CheckboxComponent } from './pages/checkbox/checkbox.component';
 import { ChipsComponent } from './pages/chips/chips.component';
 import { DatepickerComponent } from './pages/datepicker/datepicker.component';
+import { DialogComponent } from './pages/dialog/dialog.component';
 import { HomeComponent } from './pages/home/home.component';
 import { TableComponent } from './pages/table/table.component';
 import { TypographyComponent } from './pages/typography/typography.component';
@@ -51,12 +52,16 @@ const routes: Routes = [
     component: ChipsComponent,
   },
   {
-    path: 'table',
-    component: TableComponent,
-  },
-  {
     path: 'datepicker',
     component: DatepickerComponent,
+  },
+  {
+    path: 'dialog',
+    component: DialogComponent,
+  },
+  {
+    path: 'table',
+    component: TableComponent,
   },
   {
     path: '',
