@@ -13,6 +13,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatTableModule } from '@angular/material/table';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -31,6 +32,7 @@ import { CheckboxComponent } from './pages/checkbox/checkbox.component';
 import { ChipsComponent } from './pages/chips/chips.component';
 import { HomeComponent } from './pages/home/home.component';
 import { TypographyComponent } from './pages/typography/typography.component';
+import { TableComponent } from './pages/table/table.component';
 
 @NgModule({
   declarations: [
@@ -45,6 +47,7 @@ import { TypographyComponent } from './pages/typography/typography.component';
     CardComponent,
     CheckboxComponent,
     ChipsComponent,
+    TableComponent,
   ],
   imports: [
     BrowserModule,
@@ -65,6 +68,7 @@ import { TypographyComponent } from './pages/typography/typography.component';
     MatIconModule,
     MatListModule,
     MatRadioModule,
+    MatTableModule,
     MatSidenavModule,
     MatToolbarModule,
 
