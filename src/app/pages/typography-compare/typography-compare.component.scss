@@ -1,0 +1,35 @@
+.example-form-field {
+  width: 500px;
+  margin-right: 20px;
+}
+
+.compare {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  align-items: flex-start;
+  margin-top: 30px;
+
+  .compare-item {
+    //flex: 1;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    overflow: hidden;
+
+    & > div {
+      flex: 1;
+      padding-right: 10px;
+    }
+
+  }
+
+  .ellipsis {
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}

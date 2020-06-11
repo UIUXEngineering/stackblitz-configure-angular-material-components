@@ -1,0 +1,114 @@
+<div>
+  <mat-form-field class="example-form-field">
+    <mat-label>Text to compare</mat-label>
+    <input matInput type="text" [(ngModel)]="compareText">
+    <button mat-button *ngIf="compareText" matSuffix mat-icon-button aria-label="Clear" (click)="compareText=''">
+      <mat-icon>close</mat-icon>
+    </button>
+  </mat-form-field>
+
+  <button mat-raised-button color="primary" (click)="compareText = resetText">
+    RESET
+  </button>
+</div>
+
+<div class="compare">
+
+  <div class="compare-item">
+    <div><code>.mat-h1</code></div>
+    <div class="mat-h1 ellipsis">{{compareText}}</div>
+  </div>
+
+  <div class="compare-item">
+    <div><code>.mat-headline</code></div>
+    <div class="mat-headline ellipsis">{{compareText}}</div>
+  </div>
+
+</div>
+
+<div class="compare">
+
+  <div class="compare-item">
+    <div><code>.mat-h2</code></div>
+    <div class="mat-h2 ellipsis">{{compareText}}</div>
+  </div>
+
+  <div class="compare-item">
+    <div><code>.mat-title</code></div>
+    <div class="mat-title ellipsis">{{compareText}}</div>
+  </div>
+
+</div>
+
+<div class="compare">
+
+  <div class="compare-item">
+    <div><code>.mat-h3</code></div>
+    <div class="mat-h3 ellipsis">{{compareText}}</div>
+  </div>
+
+  <div class="compare-item">
+    <div><code>.mat-subheading-2</code></div>
+    <div class="mat-subheading-2 ellipsis">{{compareText}}</div>
+  </div>
+
+</div>
+
+<div class="compare">
+
+  <div class="compare-item">
+    <div><code>.mat-h4</code></div>
+    <div class="mat-h4 ellipsis">{{compareText}}</div>
+  </div>
+
+  <div class="compare-item">
+    <div><code>.mat-subheading-1</code></div>
+    <div class="mat-subheading-1 ellipsis">{{compareText}}</div>
+  </div>
+
+</div>
+
+
+<div class="compare">
+
+  <div class="compare-item">
+    <div><code>.mat-body</code></div>
+    <div class="mat-body ellipsis">{{compareText}}</div>
+  </div>
+
+  <div class="compare-item">
+    <div><code>.mat-body-1</code></div>
+    <div class="mat-body-1 ellipsis">{{compareText}}</div>
+  </div>
+
+</div>
+
+
+<div class="compare">
+
+  <div class="compare-item">
+    <div><code>.mat-body-strong</code></div>
+    <div class="mat-body-strong ellipsis">{{compareText}}</div>
+  </div>
+
+  <div class="compare-item">
+    <div><code>.mat-body-2</code></div>
+    <div class="mat-body-2 ellipsis">{{compareText}}</div>
+  </div>
+
+</div>
+
+
+<div class="compare">
+
+  <div class="compare-item">
+    <div><code>.mat-small</code></div>
+    <div class="mat-small ellipsis">{{compareText}}</div>
+  </div>
+
+  <div class="compare-item">
+    <div><code>.mat-caption</code></div>
+    <div class="mat-caption ellipsis">{{compareText}}</div>
+  </div>
+
+</div>

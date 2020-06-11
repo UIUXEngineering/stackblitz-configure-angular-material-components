@@ -27,6 +27,7 @@ import { TableComponent } from './pages/table/table.component';
 import { ToolbarComponent } from './pages/toolbar/toolbar.component';
 import { AppTooltipComponent } from './pages/tooltip/tooltip.component';
 import { TreeComponent } from './pages/tree/tree.component';
+import { TypographyCompareComponent } from './pages/typography-compare/typography-compare.component';
 import { TypographyComponent } from './pages/typography/typography.component';
 
 
@@ -38,6 +39,10 @@ const routes: Routes = [
   {
     path: 'typography',
     component: TypographyComponent,
+  },
+  {
+    path: 'typography-compare',
+    component: TypographyCompareComponent,
   },
   {
     path: 'badge',

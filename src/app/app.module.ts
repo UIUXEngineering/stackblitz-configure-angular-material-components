@@ -47,6 +47,7 @@ import { CardComponent } from './pages/card/card.component';
 import { CheckboxComponent } from './pages/checkbox/checkbox.component';
 import { ChipsComponent } from './pages/chips/chips.component';
 import { HomeComponent } from './pages/home/home.component';
+import { TypographyCompareComponent } from './pages/typography-compare/typography-compare.component';
 import { TypographyComponent } from './pages/typography/typography.component';
 import { TableComponent } from './pages/table/table.component';
 import { DatepickerComponent } from './pages/datepicker/datepicker.component';
@@ -73,6 +74,7 @@ import { TreeComponent } from './pages/tree/tree.component';
     AppComponent,
     HomeComponent,
     TypographyComponent,
+    TypographyCompareComponent,
     BadgeComponent,
     BottomSheetComponent,
     BottomSheetOverviewExampleSheet,
